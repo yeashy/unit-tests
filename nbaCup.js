@@ -137,5 +137,3 @@ function nbaCup(resultSheet, toFind) {
         } else if (i === resultArr.length - 1) return `${toFind}:This team didn't play!`;
     }
 }
-
-module.exports = nbaCup;

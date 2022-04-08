@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./nbaCup.js" defer></script>
+    <script src="./requests.js" defer></script>
+</head>
+<body>
+    <form style="display: flex; margin-bottom: 20px; height: 100px;" id="post-form">
+        <textarea name="input-text" id="input-text" cols="30" rows="10" placeholder="Enter input:"></textarea>
+        <input type="text" name="findText" placeholder="team to find" id="team-input">
+        <button type="submit">submit</button>
+    </form>
+
+    <form style="display: flex" id="get-by-id-form">
+        <label>Get by id</label>
+        <input type="number" id="input-id">
+        <button type="submit">Get</button>
+    </form>
+
+    <form id="get-form">
+        <button type="submit">Get all</button>
+    </form>
+</body>
+</html>
